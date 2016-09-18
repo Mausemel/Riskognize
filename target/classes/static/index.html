@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Do you know?</title>
+    <link href="css/layout.css" rel="stylesheet"/>
+    <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="css/font.css" rel="stylesheet"/>
+    <link href="css/griddy.min.css" rel="stylesheet"/>
+    <link href="css/griddy.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header>Riskognize</header>
+<div id="header"></div>
+<nav>
+    <ul>
+        <li id="active">
+           <a href="#play">Play</a> 
+        </li>
+        <li>
+            <a href="#highscore">Highscore</a>
+        <li>
+    </ul>
+</nav>
+<section>
+	<h1> Where are the Risks?</h1>
+    <div id="progress" style="padding: 5px;"></div>
+	<div id="picture">
+		<img src="images/picture1.png" alt="" usemap="#Map"/>
+		<map name="Map" id="Map">
+			<area alt="1" title="" href="#" shape="rect" coords="146,175,266,241" value="1"/>
+		    <area alt="2" title="" href="#" shape="rect" coords="67,256,147,326" value="2"/>
+            <area alt="3" title="" href="#" shape="poly"
+                  coords="459,355,465,379,475,369,499,359,513,363,514,337,501,332,473,343" value="3"/>
+    	</map>
+	</div>
+</section>
+
+<aside id="sidebar">
+    Your Score <p id="score">0</p>
+    <div>
+        Timer <p id="timer"></p>
+    </div>
+</aside>
+
+
+<footer> © 2016</footer>
+
+<!--scripts-->
+<script src="javascript/jquery-1.12.4.js"></script>
+<script src="javascript/jquery-ui.js"></script>
+<script src="javascript/picoModal-3.0.0.min.js"></script>
+<script src="javascript/callbacks.js"></script>
+<script src="javascript/moment.js"></script>
+<script src="javascript/progressbar.js"></script>
+</body>
+</html>
